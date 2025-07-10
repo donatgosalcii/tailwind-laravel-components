@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    :root {
+        --grid-line-color: rgba(229, 231, 235, 1); /* light mode */
+    }
+
+    .dark {
+        --grid-line-color: rgba(255, 255, 255, 0.1); /* dark mode */
+    }
+
+    .grid-background {
+        background-image:
+            linear-gradient(to right, var(--grid-line-color) 1px, transparent 1px),
+            linear-gradient(to bottom, var(--grid-line-color) 1px, transparent 1px);
+        background-size: 10rem 10rem;
+
+        /* ✨ Anchor to right side */
+        background-position: right top;
+        background-repeat: repeat;
+    }
+}
+

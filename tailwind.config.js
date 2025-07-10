@@ -1,10 +1,7 @@
-// tailwind.config.js
-
 import defaultTheme from 'tailwindcss/defaultTheme';
 import forms from '@tailwindcss/forms';
 
 export default {
-    // THIS IS THE LINE YOU MUST CHANGE
     darkMode: 'media',
 
     content: [

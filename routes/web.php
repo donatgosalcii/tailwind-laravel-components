@@ -31,5 +31,4 @@ Route::view('/contact', 'pages.contact')->name('contact');
 Route::view('/grid', 'pages.grid')->name('grid');
 Route::view('/faq', 'pages.faq')->name('faq');
 Route::view('/float-layouts', 'pages.float-layouts')->name('float-layouts');
-// Continue for each component...
 

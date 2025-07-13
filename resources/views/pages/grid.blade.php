@@ -5,14 +5,11 @@
     <div class="bg-gray-50 dark:bg-slate-900 py-24 sm:py-32">
         <div class="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
 
-            <!-- Header -->
             <h2 class="text-center text-base/7 font-semibold text-indigo-600 dark:text-indigo-400">Deploy faster</h2>
             <p class="mx-auto mt-2 max-w-lg text-balance text-center text-4xl font-semibold tracking-tight text-gray-950 dark:text-white sm:text-5xl">Everything you need to deploy your app</p>
 
-            <!-- Main Bento Grid -->
             <div class="mt-10 grid gap-4 sm:mt-16 lg:grid-cols-3 lg:grid-rows-2">
 
-                <!-- Card 1: Mobile friendly -->
                 <div class="relative lg:row-span-2">
                     <div class="absolute inset-px rounded-lg bg-white dark:bg-slate-800 lg:rounded-l-[2rem]"></div>
                     <div class="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] lg:rounded-l-[calc(2rem+1px)]">
@@ -29,7 +26,6 @@
                     <div class="pointer-events-none absolute inset-px rounded-lg shadow outline outline-black/5 dark:outline-white/10 lg:rounded-l-[2rem]"></div>
                 </div>
 
-                <!-- Card 2: Performance -->
                 <div class="relative max-lg:row-start-1">
                     <div class="absolute inset-px rounded-lg bg-white dark:bg-slate-800 max-lg:rounded-t-[2rem]"></div>
                     <div class="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] max-lg:rounded-t-[calc(2rem+1px)]">
@@ -44,7 +40,6 @@
                     <div class="pointer-events-none absolute inset-px rounded-lg shadow outline outline-black/5 dark:outline-white/10 max-lg:rounded-t-[2rem]"></div>
                 </div>
 
-                <!-- Card 3: Security -->
                 <div class="relative max-lg:row-start-3 lg:col-start-2 lg:row-start-2">
                     <div class="absolute inset-px rounded-lg bg-white dark:bg-slate-800"></div>
                     <div class="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)]">
@@ -59,7 +54,6 @@
                     <div class="pointer-events-none absolute inset-px rounded-lg shadow outline outline-black/5 dark:outline-white/10"></div>
                 </div>
 
-                <!-- Card 4: Powerful APIs -->
                 <div class="relative lg:row-span-2">
                     <div class="absolute inset-px rounded-lg bg-white dark:bg-slate-800 max-lg:rounded-b-[2rem] lg:rounded-r-[2rem]"></div>
                     <div class="relative flex h-full flex-col overflow-hidden rounded-[calc(theme(borderRadius.lg)+1px)] max-lg:rounded-b-[calc(2rem+1px)] lg:rounded-r-[calc(2rem+1px)]">
@@ -89,8 +83,6 @@
       </<span class="text-rose-400">Switch</span>>
       <<span class="text-rose-400">button</span>>Submit</<span class="text-rose-400">button</span>>
                                 </<span class="text-rose-400">form</span>>
-                                )
-                                }
                                 </code></pre>
                             </div>
                         </div>

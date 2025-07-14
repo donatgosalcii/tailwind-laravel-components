@@ -48,7 +48,6 @@
                         <p class="mt-2 text-base text-gray-600 dark:text-slate-400">Sed congue eros non finibus molestie. Vestibulum euismod augue.</p>
                     </div>
                 </div>
-                <!-- Karta 4 -->
                 <div class="w-full max-w-2xl lg:max-w-none rounded-xl bg-white dark:bg-slate-800 p-6 shadow-sm border border-gray-200 dark:border-slate-700 flex flex-col">
                     <div class="aspect-video overflow-hidden rounded-lg bg-slate-50 dark:bg-slate-700">
                         <img class="object-contain w-full h-full" src="https://i.postimg.cc/8cvXgFXJ/Screenshot-2025-07-10-at-10-51-18-AM.png" alt="Integrations">

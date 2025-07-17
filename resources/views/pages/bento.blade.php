@@ -1,129 +1,62 @@
 @extends('layouts.app')
 @section('content')
 
-    <div class="bg-slate-50 dark:bg-gray-900">
-        <div class="w-full">
-            <div class="mx-auto max-w-7xl px-4 py-8 sm:px-6 sm:py-16 lg:px-8 lg:py-24">
-                <div class="mx-auto max-w-2xl lg:mx-0">
-                    <p class="text-base font-semibold leading-7 text-indigo-600 dark:text-indigo-400">
-                        Deploy faster
+    <div class="max-w-7xl mx-auto px-4 py-8">
+        <div class="mb-10">
+            <a href="#" class="text-sm text-indigo-600 font-medium dark:text-indigo-400">Deploy faster</a>
+            <h1 class="text-4xl font-bold mt-2">Everything you need to deploy your app</h1>
+        </div>
+        <div class="grid gap-6 mb-6 lg:grid-cols-2">
+            <div class="border rounded-xl shadow overflow-hidden min-w-full dark:bg-gray-800 dark:border-gray-700">
+                <img src="https://i.postimg.cc/Hk4ykck1/bento-01-performance.png" alt="Performance" class="w-[599.98px] h-[320px] object-cover mx-auto" />
+                <div class="pt-4 px-10 pb-10">
+                    <h3 class="text-sm text-indigo-600 font-semibold dark:text-indigo-400">Performance</h3>
+                    <h2 class="font-semibold text-gray-800 dark:text-white mt-1">Lightning-fast builds</h2>
+                    <p class="text-sm text-gray-500 dark:text-gray-300 mt-2 mb-0">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. In gravida justo et nulla efficitur.
                     </p>
-                    <h1 class="mt-2 text-3xl font-semibold tracking-tight text-gray-900 dark:text-white sm:text-4xl lg:text-6xl">
-                        Everything you need to deploy your app
-                    </h1>
                 </div>
-
-                <div class="mt-8 sm:mt-12 lg:mt-16 flex flex-col items-center gap-8 lg:grid lg:grid-cols-2 lg:items-stretch">
-
-                    <div class="w-full max-w-2xl lg:max-w-none flex flex-col overflow-hidden rounded-xl bg-white dark:bg-slate-800 shadow-sm border border-gray-200/75 dark:border-slate-700">
-                        <div class="aspect-video flex-none">
-                            <img
-                                src="https://tailwindcss.com/plus-assets/img/component-images/bento-01-performance.png"
-                                alt="Performance graph"
-                                class="w-full h-full object-cover"
-                            >
-                        </div>
-                        <div class="flex-grow p-6">
-                            <h4 class="text-sm font-semibold text-indigo-600 dark:text-indigo-400">
-                                Performance
-                            </h4>
-                            <h3 class="mt-1 text-lg font-semibold text-gray-900 dark:text-white">
-                                Lightning-fast builds
-                            </h3>
-                            <p class="mt-2 text-sm text-gray-600 dark:text-slate-400 leading-relaxed">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. In gravida justo et nulla efficitur, maximus egestas sem pellentesque.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="w-full max-w-2xl lg:max-w-none flex flex-col overflow-hidden rounded-xl bg-white dark:bg-slate-800 shadow-sm border border-gray-200/75 dark:border-slate-700">
-                        <div class="aspect-video flex-none">
-                            <img
-                                src="https://tailwindcss.com/plus-assets/img/component-images/bento-01-releases.png"
-                                alt="Releases interface"
-                                class="w-full h-full object-cover"
-                            >
-                        </div>
-                        <div class="flex-grow p-6">
-                            <h4 class="text-sm font-semibold text-indigo-600 dark:text-indigo-400">
-                                Releases
-                            </h4>
-                            <h3 class="mt-1 text-lg font-semibold text-gray-900 dark:text-white">
-                                Push to deploy
-                            </h3>
-                            <p class="mt-2 text-sm text-gray-600 dark:text-slate-400 leading-relaxed">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, quis auctor venenatis, eros arcu rhoncus massa, laoreet dapibus ex elit vitae odio.
-                            </p>
-                        </div>
-                    </div>
-
+            </div>
+            <div class="border rounded-xl shadow overflow-hidden min-w-full dark:bg-gray-800 dark:border-gray-700">
+                <img src="https://i.postimg.cc/5NzK9VQW/bento-02-releases.png" alt="Releases" class="w-[600px] h-[320px] object-cover mx-auto" />
+                <div class="pt-4 px-10 pb-10">
+                    <h3 class="text-sm text-indigo-600 font-semibold dark:text-indigo-400">Releases</h3>
+                    <h2 class="font-semibold text-gray-800 dark:text-white mt-1">Push to deploy</h2>
+                    <p class="text-sm text-gray-500 dark:text-gray-300 mt-2 mb-0">
+                        Curabitur auctor, eros arcu rhoncus massa, laoreet dapibus ex elit vitae odio.
+                    </p>
                 </div>
-
-                <div class="mt-8 flex flex-col items-center gap-8 lg:grid lg:grid-cols-3 lg:items-stretch">
-
-                    <div class="w-full max-w-2xl lg:max-w-none flex flex-col overflow-hidden rounded-xl bg-white dark:bg-slate-800 shadow-sm border border-gray-200/75 dark:border-slate-700">
-                        <div class="aspect-video flex-none">
-                            <img
-                                src="https://tailwindcss.com/plus-assets/img/component-images/bento-01-speed.png"
-                                alt="Keyboard"
-                                class="w-full h-full object-cover"
-                            >
-                        </div>
-                        <div class="flex-grow p-6">
-                            <p class="text-base font-semibold text-indigo-600 dark:text-indigo-400">
-                                Speed
-                            </p>
-                            <h3 class="mt-1 text-lg font-semibold text-gray-900 dark:text-white">
-                                Built for power users
-                            </h3>
-                            <p class="mt-2 text-base text-gray-600 dark:text-slate-400">
-                                Sed congue eros non finibus molestie. Vestibulum euismod augue.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="w-full max-w-2xl lg:max-w-none flex flex-col overflow-hidden rounded-xl bg-white dark:bg-slate-800 shadow-sm border border-gray-200/75 dark:border-slate-700">
-                        <div class="aspect-video flex-none bg-white">
-                            <img
-                                src="https://i.postimg.cc/8cvXgFXJ/Screenshot-2025-07-10-at-10-51-18-AM.png"
-                                alt="Integrations"
-                                class="w-full h-full object-contain"
-                            >
-                        </div>
-                        <div class="flex-grow p-6">
-                            <p class="text-base font-semibold text-indigo-600 dark:text-indigo-400">
-                                Integrations
-                            </p>
-                            <h3 class="mt-1 text-lg font-semibold text-gray-900 dark:text-white">
-                                Connect your favorite tools
-                            </h3>
-                            <p class="mt-2 text-base text-gray-600 dark:text-slate-400">
-                                Maecenas at augue sed elit dictum vulputate, in nisi aliquam maximus arcu.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="w-full max-w-2xl lg:max-w-none flex flex-col overflow-hidden rounded-xl bg-white dark:bg-slate-800 shadow-sm border border-gray-200/75 dark:border-slate-700">
-                        <div class="aspect-video flex-none bg-white">
-                            <img
-                                src="https://tailwindcss.com/plus-assets/img/component-images/bento-01-network.png"
-                                alt="Network map"
-                                class="w-full h-full object-contain"
-                            >
-                        </div>
-                        <div class="flex-grow p-6">
-                            <p class="text-base font-semibold text-indigo-600 dark:text-indigo-400">
-                                Network
-                            </p>
-                            <h3 class="mt-1 text-lg font-semibold text-gray-900 dark:text-white">
-                                Globally distributed CDN
-                            </h3>
-                            <p class="mt-2 text-base text-gray-600 dark:text-slate-400">
-                                Aenean vulputate justo commodo auctor vehicula in malesuada semper.
-                            </p>
-                        </div>
-                    </div>
-
+            </div>
+        </div>
+        <div class="grid gap-6 lg:grid-cols-3">
+            <div class="border rounded-xl shadow overflow-hidden min-w-full dark:bg-gray-800 dark:border-gray-700">
+                <img src="https://i.postimg.cc/0ydtm0Ct/bento-03-speed.png" alt="Speed" class="w-[394.66px] h-[320px] object-cover mx-auto" />
+                <div class="pt-4 px-10 pb-10">
+                    <h3 class="text-sm text-indigo-600 font-semibold dark:text-indigo-400">Speed</h3>
+                    <h2 class="font-semibold text-gray-800 dark:text-white mt-1">Built for power users</h2>
+                    <p class="text-sm text-gray-500 dark:text-gray-300 mt-2 mb-0">
+                        Sed congue eros non finibus molestie. Vestibulum euismod augue.
+                    </p>
+                </div>
+            </div>
+            <div class="border rounded-xl shadow overflow-hidden min-w-full dark:bg-gray-800 dark:border-gray-700">
+                <img src="https://i.postimg.cc/5t4smQ7f/bento-04-integrations.png" alt="Integrations" class="w-[394.67px] h-[320px] object-cover mx-auto" />
+                <div class="pt-4 px-10 pb-10">
+                    <h3 class="text-sm text-indigo-600 font-semibold dark:text-indigo-400">Integrations</h3>
+                    <h2 class="font-semibold text-gray-800 dark:text-white mt-1">Connect your favorite tools</h2>
+                    <p class="text-sm text-gray-500 dark:text-gray-300 mt-2 mb-0">
+                        Maecenas at augue sed elit dictum vulputate.
+                    </p>
+                </div>
+            </div>
+            <div class="border rounded-xl shadow overflow-hidden min-w-full dark:bg-gray-800 dark:border-gray-700">
+                <img src="https://i.postimg.cc/q71jDBSy/bento-05-network.png" alt="Network" class="w-[394.66px] h-[320px] object-cover mx-auto" />
+                <div class="pt-4 px-10 pb-10">
+                    <h3 class="text-sm text-indigo-600 font-semibold dark:text-indigo-400">Network</h3>
+                    <h2 class="font-semibold text-gray-800 dark:text-white mt-1">Globally distributed CDN</h2>
+                    <p class="text-sm text-gray-500 dark:text-gray-300 mt-2 mb-0">
+                        Aenean vulputate justo commodo auctor vehicula.
+                    </p>
                 </div>
             </div>
         </div>

@@ -1,12 +1,12 @@
 @extends('layouts.app')
 
 @section('content')
-    <div x-data="{ isDarkMode: window.matchMedia('(prefers-color-scheme: dark)').matches }"
+    <div class="flex items-center justify-start min-h-screen bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-gray-200 transition-colors duration-300 " x-data="{ isDarkMode: window.matchMedia('(prefers-color-scheme: dark)').matches }"
          x-init="window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', e => isDarkMode = e.matches)"
          :class="{ 'dark': isDarkMode }"
          class="flex items-center justify-center min-h-screen bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-gray-200 transition-colors duration-300">
 
-        <div class="text-center px-6 py-12 md:px-8">
+        <div class="text-left px-6 py-12 md:px-8">
             <h3 class="font-bold tracking-tight text-gray-900 dark:text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl">
                 Support Center
             </h3>
